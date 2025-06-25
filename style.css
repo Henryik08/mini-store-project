@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-nav{
-    /* border: 2px solid red; */
-}
 
 .nav-item{
     text-transform: uppercase;
@@ -35,13 +32,6 @@ nav{
     color: black;
 }
 
-section{
-    /* padding: 20px 0px; */
-    /* border: 2px solid red; */
-    /* height: 85vh; */
-}
-
-
 #intro {
     background-color: #F3F3F3;
 }
@@ -52,4 +42,3 @@ section{
     align-items: center;
     justify-content: center;
 }
-
