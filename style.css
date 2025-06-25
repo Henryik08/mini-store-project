@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    /* border: 2px solid red; */
+}
+
+.nav-item{
+    text-transform: uppercase;
+    color: gray;
+}
+
+.navbar-nav{
+    gap: 0.7rem;
+}
+#main-nav a{
+    color: gray;
+}
+
+#main-nav a:hover{
+    color: #0d6efd;
+    font-weight: 400;
+}
+
+#drop-list a:hover{
+    color: black;
+}
+#drop-list a:active{
+    background-color: rgb(180, 180, 180);
+}
+
+#top-icon a:hover{
+    color: black;
+}
+
+section{
+    /* padding: 20px 0px; */
+    /* border: 2px solid red; */
+    /* height: 85vh; */
+}
+
+
+#intro {
+    background-color: #F3F3F3;
+}
+
+#intro .col-md-5{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
