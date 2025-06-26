@@ -42,3 +42,56 @@
     align-items: center;
     justify-content: center;
 }
+
+#cards .row{
+    justify-content: center;
+}
+
+#cards-head a{
+    letter-spacing: 2px;
+}
+#cards-head a:hover{
+    text-decoration: none;
+}
+
+#card-holder{
+    border: 2px solid red;
+   margin-bottom: 20px;
+
+}
+
+.card-body h5:hover{
+    color: #0d6efd;
+    cursor: pointer;
+}
+
+#card-btn{
+    position: absolute;
+    bottom: 7rem;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    gap: 0.6rem;
+    width: 90%;
+    letter-spacing: 2px;
+    display: none;
+    border: none;
+    border-radius: 0px;
+}
+
+#card-holder:hover #card-btn{
+    display: flex;
+}
+
+#card-btn:hover{
+    background-color: #0d6efd;
+}
+
+#yearly-sale .row{
+     height: 70vh;
+     background-color: #F3F3F3;
+    background-image: url(images/single-image1.png);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: right;
+}
