@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.navbar{
+    z-index: 3;
+}
 
 .nav-item{
     text-transform: uppercase;
@@ -34,17 +37,36 @@
 
 #intro {
     background-color: #F3F3F3;
+    position: relative;
 }
 
-#intro .col-md-5{
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#intro .row{
+    height: 70vh;
+    background-image: url(images/banner-image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
 }
 
-#cards .row{
-    justify-content: center;
+#blur-bg{
+    background-color: #f3f3f3b2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+#intro-content{
+    position: relative;
+    z-index: 2;
+}
+
+#products .row{
+    justify-content: space-evenly;
+}
+
+#watches .row{
+    justify-content: space-evenly;
 }
 
 #cards-head a{
@@ -87,7 +109,7 @@
     background-color: #0d6efd;
 }
 
-#yearly-sale .row{
+#sale .row{
      height: 70vh;
      background-color: #F3F3F3;
     background-image: url(images/single-image1.png);

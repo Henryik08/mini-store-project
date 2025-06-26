@@ -16,7 +16,7 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-3 py-1 position-sticky top-0">
         <div class="container-fluid">
             <!-- navbar brand / title -->
             <a class="navbar-brand" href="#intro">
@@ -32,7 +32,7 @@
             <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#intro">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#services">Services</a>
@@ -81,26 +81,25 @@
     </nav>
 
     <section id="intro" class="pt-2">
-        <div class="container-lg">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-6 text-center text-md-start">
+        <div class="container-lg ">
+            <div class="row align-items-center">
+                <div class="d-md-none d-sm-flex" id="blur-bg"></div>
+                <div class="col-md-6" id="intro-content">
                     <h1>
                         <div class="display-3 text-uppercase text-dark pb-4">Your Products Are Great.</div>
                     </h1>
                     <a href="index.html" class="btn btn-medium btn-dark text-uppercase btn-rounded-none p-3 px-4">Shop
                         Product</a>
                 </div>
-                <div class="col-md-5 text-center">
-                    <img class="img-fluid" src="images/banner-image.png" alt="banner">
-                </div>
+                
             </div>
         </div>
     </section>
 
-    <section class="p-5 px-3">
+    <section class="p-5 px-3" id="services">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 pb-3 d-flex align-items-baseline">
+                <div class="col-lg-3 col-md-6 pb-3 mt-5 d-flex align-items-baseline">
                     <i class="fa-solid fa-cart-shopping fs-4 me-2 text-primary"></i>
                     <div>
                         <h1 class="display-5 fs-4 fw-normal text-uppercase">
@@ -112,7 +111,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 pb-3 d-flex align-items-baseline">
+                <div class="col-lg-3 col-md-6 pb-3 mt-5 d-flex align-items-baseline">
                     <i class="fa-solid fa-medal fs-4 me-2 text-primary"></i>
                     <div>
                         <h1 class="display-5 fs-4 fw-normal text-uppercase">
@@ -124,7 +123,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 pb-3 d-flex align-items-baseline">
+                <div class="col-lg-3 col-md-6 pb-3 mt-5 d-flex align-items-baseline">
                     <i class="fa-solid fa-tag fs-4 me-2 text-primary"></i>
                     <div>
                         <h1 class="display-5 fs-4 fw-normal text-uppercase">
@@ -136,7 +135,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 pb-3 d-flex align-items-baseline">
+                <div class="col-lg-3 col-md-6 pb-3 mt-5 d-flex align-items-baseline">
                     <i class="fa-solid fa-shield fs-4 me-2 text-primary"></i>
                     <div>
                         <h1 class="display-5 fs-4 fw-normal text-uppercase">
@@ -152,7 +151,7 @@
         </div>
     </section>
 
-    <section id="cards" class="py-4">
+    <section id="products" class="py-4">
         <div class="container-lg ">
             <div class="row">
                 <div class="col-12 d-flex align-items-center justify-content-between mb-3 px-4" id="cards-head">
@@ -214,7 +213,7 @@
         </div>
     </section>
 
-    <section id="cards" class="py-4">
+    <section id="watches" class="py-4">
         <div class="container-lg ">
             <div class="row">
                 <div class="col-12 d-flex align-items-center justify-content-between mb-3 px-4" id="cards-head">
@@ -277,7 +276,7 @@
         </div>
     </section>
 
-    <section id="yearly-sale" class="my-4">
+    <section id="sale" class="mb-5">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 ps-5  align-self-center">
@@ -291,8 +290,8 @@
         </div>
     </section>
 
-
-
+    
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
