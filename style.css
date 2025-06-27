@@ -1,37 +1,40 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.navbar{
+
+.navbar {
     z-index: 3;
 }
 
-.nav-item{
+.nav-item {
     text-transform: uppercase;
     color: gray;
 }
 
-.navbar-nav{
+.navbar-nav {
     gap: 0.7rem;
 }
-#main-nav a{
+
+#main-nav a {
     color: gray;
 }
 
-#main-nav a:hover{
+#main-nav a:hover {
     color: #0d6efd;
     font-weight: 400;
 }
 
-#drop-list a:hover{
+#drop-list a:hover {
     color: black;
 }
-#drop-list a:active{
+
+#drop-list a:active {
     background-color: rgb(180, 180, 180);
 }
 
-#top-icon a:hover{
+#top-icon a:hover {
     color: black;
 }
 
@@ -40,15 +43,15 @@
     position: relative;
 }
 
-#intro .row{
+#intro .row {
     height: 70vh;
     background-image: url(images/banner-image.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
     background-position: right;
 }
 
-#blur-bg{
+#blur-bg {
     background-color: #f3f3f3b2;
     position: absolute;
     top: 0px;
@@ -56,64 +59,83 @@
     bottom: 0px;
 }
 
-#intro-content{
+#intro-content {
     position: relative;
     z-index: 2;
 }
 
-#products .row{
+#products .row {
     justify-content: space-evenly;
 }
 
-#watches .row{
+#watches .row {
     justify-content: space-evenly;
 }
 
-#cards-head a{
+#cards-head a {
     letter-spacing: 2px;
 }
-#cards-head a:hover{
+
+#cards-head a:hover {
     text-decoration: none;
 }
 
-#card-holder{
+#card-holder {
     border: 2px solid red;
-   margin-bottom: 20px;
+    margin-bottom: 20px;
 
 }
 
-.card-body h5:hover{
+.card-body h5:hover {
     color: #0d6efd;
     cursor: pointer;
 }
 
-#card-btn{
+#card-btn {
     position: absolute;
     bottom: 7rem;
     justify-self: center;
     align-self: center;
     flex-direction: column;
-    gap: 0.6rem;
-    width: 90%;
+    gap: 0.4rem;
+    width: 75%;
     letter-spacing: 2px;
     display: none;
     border: none;
     border-radius: 0px;
 }
 
-#card-holder:hover #card-btn{
+#card-holder:hover #card-btn {
     display: flex;
 }
 
-#card-btn:hover{
+#card-btn:hover {
     background-color: #0d6efd;
 }
 
-#sale .row{
-     height: 70vh;
-     background-color: #F3F3F3;
+#sale {
+    background-color: #F3F3F3;
+    position: relative;
+}
+
+#sale .row {
+    height: 70vh;
     background-image: url(images/single-image1.png);
     background-repeat: no-repeat;
-    background-size: inherit;
+    background-size: contain;
     background-position: right;
+}
+
+
+#sale #blur-bg {
+    background-color: #f3f3f3b2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+#sale-content {
+    position: relative;
+    z-index: 2;
 }
