@@ -47,8 +47,8 @@
     height: 70vh;
     background-image: url(images/banner-image.png);
     background-repeat: no-repeat;
-    background-size: auto;
-    background-position: right;
+    background-size: contain;
+    background-position: right bottom;
 }
 
 #blur-bg {
@@ -120,10 +120,11 @@
 
 #sale .row {
     height: 70vh;
+    background-color: #F3F3F3;
     background-image: url(images/single-image1.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right;
+    background-position: right bottom;
 }
 
 
